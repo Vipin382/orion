@@ -1,0 +1,26 @@
+.events {
+  margin-top: 10px;
+  display: flex;
+  height: 510px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eventHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px 15px 0px;
+  align-items: center;
+  width: 100%;
+  color: grey;
+}
+.eventHeader h2 {
+  font-size: 20px;
+  color: black;
+}
+.eventHeader p {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  color: blue;
+}

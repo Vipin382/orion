@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "firebase": "^9.9.4",
+    "fs": "^0.0.1-security",
     "next": "12.3.0",
+    "papaparse": "^5.3.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-calendar": "^3.8.0",
+    "react-dom": "18.2.0",
+    "react-papaparse": "^4.1.0",
+    "scss": "^0.2.4",
+    "solid-toast": "^0.3.5"
   },
   "devDependencies": {
     "eslint": "8.23.1",

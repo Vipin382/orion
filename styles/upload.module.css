@@ -1,0 +1,17 @@
+.ContainBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.uploader {
+  padding: 10px 20px;
+}
+.uploadCont {
+  border: 2px solid rgb(25, 132, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border-style: dashed;
+  color: rgb(25, 132, 255);
+}

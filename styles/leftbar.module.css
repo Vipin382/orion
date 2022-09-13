@@ -1,0 +1,43 @@
+.leftbar {
+  min-width: 400px;
+  height: 100vh;
+  float: right;
+  overflow: hidden;
+}
+.leftbar .header {
+  display: flex;
+  height: 80px;
+  padding: 5px;
+  justify-content: space-around;
+}
+.leftbar .header .user {
+  width: 200px;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.leftbar .header .user .profile {
+  position: relative;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+}
+.leftbar .header .user p {
+  color: grey;
+}
+.calander {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}

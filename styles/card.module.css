@@ -1,0 +1,44 @@
+.card {
+  color: black;
+  width: 380px;
+  border-radius: 15px;
+  padding: 5px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+}
+.col_1 {
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+  color: white;
+  background-color: rgb(25, 132, 255);
+}
+
+.col_2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px solid red;
+}
+.col_2 h2 {
+  font-size: 20px;
+}
+.col_2 p {
+  font-size: 10px;
+  color: grey;
+}
+.btn {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card :hover ~ .btn {
+  transform: translateX(3px);
+}
